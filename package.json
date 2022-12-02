@@ -1,0 +1,31 @@
+{
+  "name": "red-contrib-rboard-exclusive",
+  "version": "1.0.0",
+  "description": "Node-RED nodes for mruby/c Rboard ",
+  "main": "LED.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "LED": "LEDtype.js",
+      "I2C":"I2C.js",
+      "Format_NodeType":"Format_NodeType.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miukawahara/node-red-contrib-rboard-exclusive.git"
+  },
+  "keywords": [
+    "node-red",
+    "LED",
+    "LED"
+  ],
+  "author": "miukawahara",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/miukawahara/node-red-contrib-rboard-exclusive/issues"
+  },
+  "homepage": "https://github.com/miukawahara/node-red-contrib-rboard-exclusive#readme"
+}
